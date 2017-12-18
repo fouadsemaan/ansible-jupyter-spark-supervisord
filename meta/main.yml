@@ -30,9 +30,14 @@ galaxy_info:
 dependencies:
   - role: andrewrothstein.java-openjdk-jre
     version: v1.0.0
+  - role: andrewrothsteing.hadoop
+    version: v2.1.2
   - role: fouadsemaan.spark
     version: v2.0.5
+    spark_ver: '{{jupyter_spark_ver}}' 
+    spark_hadoop_ver: '{{jupyter_spark_hadoop_ver}}' 
     spark_mirror_url: '{{jupyter_spark_mirror_url}}'
+    spark_checksum: '{{jupyter_spark_checksum}}'
     spark_timeout: '{{jupyter_spark_timeout}}'
     spark_envs:
       PYTHONPATH : '{{jupyter_spark_python_path}}'

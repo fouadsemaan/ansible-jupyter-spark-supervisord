@@ -9,6 +9,11 @@ jupyter_supervisord_privilege_escalate: True
 
 jupyter_supervisord_conda_cleanup: False
 
+jupyter_spark_ver: '2.1.1'
+jupyter_spark_hadoop_ver: without-hadoop
+jupyter_spark_checksum: "sha256:AE6F66CB4E490F92C27CD821E71CB9E5BAAC66FFCD3B4CB1E7CB5BBF70622ACF"
+jupyter_spark_mirror_url: http://apache.claz.org/spark
+
 # List set of environment files to load
 #jupyter_supervisord_env_files:
 #  - /etc/profile.d/java.sh
