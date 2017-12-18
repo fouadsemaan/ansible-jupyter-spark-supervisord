@@ -30,7 +30,7 @@ galaxy_info:
 dependencies:
   - role: andrewrothstein.java-openjdk-jre
     version: v1.0.0
-  - role: andrewrothsteing.hadoop
+  - role: andrewrothstein.hadoop
     version: v2.1.2
   - role: fouadsemaan.spark
     version: v2.0.5
